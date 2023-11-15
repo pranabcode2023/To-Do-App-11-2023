@@ -109,6 +109,10 @@
   background-color: darkgoldenrod;
 }
 
+
+.drag {
+  box-shadow: 0 0 20px black;
+}
 @media (max-width: 1100px) {
   .todos {
     width: 45%;

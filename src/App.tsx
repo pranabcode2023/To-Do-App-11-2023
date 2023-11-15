@@ -38,7 +38,7 @@ const App: React.FC = () => {
       active = todos,
       complete = completedTodos;
 
-    if (source.droppableId === "droppable-1") {
+    if (source.droppableId === "TodosList") {
       add = active[source.index];
       active.splice(source.index, 1);
     } else {
@@ -46,7 +46,7 @@ const App: React.FC = () => {
       complete.splice(source.index, 1);
     }
 
-    if (destination.droppableId === "droppable-1") {
+    if (destination.droppableId === "TodosList") {
       active.splice(destination.index, 0, add);
     } else {
       complete.splice(destination.index, 0, add);

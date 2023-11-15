@@ -101,6 +101,14 @@
   background-color: darkgreen;
 }
 
+.dragActive {
+  background-color: darkcyan;
+}
+
+.dragComplete {
+  background-color: darkgoldenrod;
+}
+
 @media (max-width: 1100px) {
   .todos {
     width: 45%;

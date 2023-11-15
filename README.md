@@ -1,14 +1,14 @@
 
-#Key Features:
+# Key Features:
 Add, edit, and delete tasks
 Organize tasks with drag-and-drop functionality
 Separate sections for active and completed tasks
 Clean and responsive design for a seamless user experience
 
-#Tech Stack:
+# Tech Stack:
 React
 react-beautiful-dnd (for drag-and-drop)
-Netlify (for hosting)[Create React App](https://todo-app-11-2023.netlify.app)
+Netlify (for hosting)[To Do App ](https://todo-app-11-2023.netlify.app)
 
 # Getting Started with Create React App
 
